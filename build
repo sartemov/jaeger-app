@@ -1,0 +1,4 @@
+podman build -t quay.io/sartemov/jaeger-test-backend:v1 ./backend
+podman push quay.io/sartemov/jaeger/jaeger-test-backend:v1
+podman build -t quay.io/sartemov/jaeger-test-frontend:v1 ./frontend
+podman push quay.io/sartemov/jaeger/jaeger-test-frontend:v1
